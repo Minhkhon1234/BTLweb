@@ -7,6 +7,7 @@
 header{
     width: 100%;
     height: fit-content;
+    padding: 10px;
 }
 header nav li{
     display: inline-block;
@@ -16,9 +17,6 @@ header nav li{
     line-height: 50px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-}
-ul{
-    margin:0;
 }
 header a{
     text-decoration: none;
@@ -30,6 +28,10 @@ header a{
 }
 .loai-sach a{
     color: white;
+}
+.userinfo{
+    float: right;
+    margin: 30px;
 }
 #search-container {
     display: flex;
